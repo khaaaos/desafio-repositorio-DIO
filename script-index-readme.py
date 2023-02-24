@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[100]:
+# In[102]:
 
 
 def update_readme():
@@ -40,7 +40,8 @@ def update_readme():
     
         with open(file='README.md', mode='w', encoding='utf-8') as fp:
             fp.write(readme+'\n')
-            fp.write(res)
+            for ln in folder_files:
+                fp.write(ln+'\n')
     
     os.chdir(repo)
     
@@ -48,8 +49,14 @@ def update_readme():
     
 
 
-# In[101]:
+# In[103]:
 
 
 update_readme()
+
+
+# In[ ]:
+
+
+
 
