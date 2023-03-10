@@ -1,3 +1,7 @@
 https://introcs.cs.princeton.edu/java/11cheatsheet/
 
 https://www.edureka.co/blog/cheatsheets/java-cheat-sheet/
+
+https://github.com/digitalinnovationone/trilha-java-basico
+
+https://felipe-silva-aguiar.gitbook.io/dio-java/gitbook/summary
